@@ -1,0 +1,6 @@
+d:\niranjan\SOLID Principles\SOLID Principles\bin\Debug\SOLID Principles.exe.config
+d:\niranjan\SOLID Principles\SOLID Principles\obj\Debug\SOLID Principles.csprojResolveAssemblyReference.cache
+d:\niranjan\SOLID Principles\SOLID Principles\bin\Debug\SOLID Principles.exe
+d:\niranjan\SOLID Principles\SOLID Principles\bin\Debug\SOLID Principles.pdb
+d:\niranjan\SOLID Principles\SOLID Principles\obj\Debug\SOLID Principles.exe
+d:\niranjan\SOLID Principles\SOLID Principles\obj\Debug\SOLID Principles.pdb

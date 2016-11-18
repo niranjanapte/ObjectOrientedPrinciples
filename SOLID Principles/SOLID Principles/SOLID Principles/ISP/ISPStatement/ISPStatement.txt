@@ -1,0 +1,11 @@
+﻿
+Interface Segregation Principle (ISP) 
+Statement:
+1.  No client should be forced to depend on methods it does not use. Many client-specific interfaces are better than one general-purpose interface. 
+
+2.  We can define it in another way. An interface should be more closly related to the code that uses it than code that implements it.
+	So the methods on the interface are defined by which methods the client code needs than which methods the class implements. 
+	So clients should not be forced to depend upon interfaces that they don't use.
+    Like classes, each interface should have a specific purpose/responsibility (refer to SRP).
+	You shouldn't be forced to implement an interface when your object doesn't share that purpose. 
+	The larger the interface, the more likely it includes methods that not all implementers can do. That's the essence of the Interface Segregation Principle.

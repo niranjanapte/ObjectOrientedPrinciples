@@ -1,0 +1,12 @@
+﻿Suppose we want to have a wooden chair with specific measurements and the kind of wood to be used to make that chair from. 
+Then we can't leave the decision making on measurements and the wood to the carpenter. 
+Here his job is to make a chair based on our requirements with his tools and we provide the specifications to him to make a good chair.
+
+So what is the benefit we get by the design? Yes, we definitely have a benefit with it. 
+We need to modify both the DataExporter class and ExceptionLogger class whenever we need to introduce a new logging functionality. 
+But in the updated design we need to add only another catch block for the new exception logging feature. Coupling is not inherently evil. 
+If you don't have some amount of coupling, your software will not do anything for you.
+ The only thing we need to do is understand the system, requirements and environment properly and find areas where DIP should be followed.
+
+we have gone through the all five SOLID principles successfully.
+ And we can conclude that using these principles we can build an application with tidy, readable and easily maintainable code.

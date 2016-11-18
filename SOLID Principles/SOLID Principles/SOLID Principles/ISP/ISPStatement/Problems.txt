@@ -1,0 +1,13 @@
+﻿Suppose we need to build a system for an IT firm that contains roles like TeamLead and Programmer
+ where TeamLead divides a huge task into smaller tasks and assigns them to his/her programmers or can directly work on them.
+ Based on specifications, we need to create an interface and a TeamLead class to implement it. 
+ Later another role like Manager, who assigns tasks to TeamLead and will not work on the tasks, is introduced into the system. 
+ Can we directly implement an ILead interface in the Manager class
+
+
+ Problem in the Design that voilates ISP 
+     Since the Manager can't work on a task and at the same time no one can assign tasks to the Manager, this WorkOnTask() should not be in the Manager class.
+      But we are implementing this class from the ILead interface, we need to provide a concrete Method.
+      Here we are forcing the Manager class to implement a WorkOnTask() method without a purpose. This is wrong. The design violates ISP. 
+      Let's correct the design.
+     

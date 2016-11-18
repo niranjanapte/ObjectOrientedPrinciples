@@ -1,0 +1,22 @@
+﻿Since we have three roles, 
+1. Manager, that can only divide and assign the tasks , 
+2. TeamLead that can divide and assign the tasks and can work on them as well, 
+3. Programmer that can only work on tasks, we need to divide the responsibilities by segregating the ILead interface. 
+
+An interface that provides a contract for WorkOnTask().
+public interface IProgrammer  
+{  
+   void WorkOnTask();  
+} 
+
+An interface that provide contracts to manage the tasks: 
+public interface ILead  
+{  
+   void AssignTask();  
+   void CreateSubTask();  
+} 
+TeamLead can manage tasks and can work on them if needed. Then the TeamLead class should implement both of the IProgrammer and ILead interfaces.
+public class TeamLead: IProgrammer, ILead  
+{ }
+
+Here we separated responsibilities/purposes and distributed them on multiple interfaces and provided a good level of abstraction too.
